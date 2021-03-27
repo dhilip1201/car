@@ -7,11 +7,30 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,.aboutus,.contactus {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
+@media screen and (max-width: 768px) {
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
 
+  .btn {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
